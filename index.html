@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend_Reto2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="myScript.js"></script>
+<body>
+
+	<h1>Clientes</h1>
+
+	Id de Cliente: <input type="number" id="idCliente"><br>
+	Nombre de Cliente: <input type="text" id="nombreCliente"><br>
+	Correo de Cliente: <input type="text" id="mailCliente"><br>
+	Edad de Cliente: <input type="number" id="edadCliente"><br>
+
+	<button onclick="guardarCliente()">GUARDAR CLIENTE</button>
+
+	<button onclick="editarCliente()">ACTUALIZAR CLIENTE</button>
+	<button onclick="leerClientes()">TRAER CLIENTES</button>
+
+	<div id="listaClientes">
+
+	<h1>Bicicleta</h1>
+
+	Id de Bicicleta: <input type="number" id="idBicicleta"><br>
+	Nombre de Bicicleta: <input type="text" id="nombreBicicleta"><br>
+	Brand de Bicicleta: <input type="text" id="brandBicicleta"><br>
+	Modelo de Bicicleta: <input type="text" id="modeloBicicleta"><br>
+	Category_id de Bicicleta: <input type="number" id="category_idBicicleta"><br>
+
+	<button onclick="guardarBicicleta()">GUARDAR BICICLETA</button>
+
+	<button onclick="editarBicicleta()">ACTUALIZAR BICICLETA</button>
+	<button onclick="leerBicicleta()">TRAER BICICLETA</button>
+
+	<div id="listaBicicleta">
+
+
+	<h1>Mensaje</h1>
+
+	Id de Mensaje: <input type="number" id="idMensaje"><br>
+	Messagetext: <input type="text" id="messagetext"><br>
+	
+	<button onclick="guardarMensaje()">GUARDAR MENSAJE</button>
+
+	<button onclick="editarMensaje()">ACTUALIZAR MENSAJE</button>
+	<button onclick="leerMensaje()">TRAER MENSAJE</button>
+
+	<div id="listaMensaje">
+
+	</div>
+
+</body>
+</html>
